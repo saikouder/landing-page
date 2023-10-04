@@ -50,11 +50,14 @@ a {
     align-items: center;
     justify-content: space-around;
     margin-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 .s1-text {
     display: flex;
     flex-direction: column;
+    flex-basis: 25%;
+    flex-grow: 1;
     gap: 8px;
 }
 
@@ -84,6 +87,7 @@ button {
 
 .image-wrapper img {
     width: 100%;
+    display: flex;
 }
 
 .cover {
