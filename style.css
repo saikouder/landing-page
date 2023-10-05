@@ -1,5 +1,5 @@
 * {
-    font-family: roboto;
+    font-family: Roboto, system-ui;
 }
 
 body {
@@ -9,12 +9,14 @@ body {
     flex-direction: column;
 }
 
+/* beginning of section 1 */
+
 .section1 {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 20%;
+    height: 30%;
     margin: 0;
     padding: 16px 5%;
 }
@@ -93,4 +95,50 @@ button {
 .cover {
     object-fit: contain;
     color: white;
+}
+
+/* beginning of section 2 */
+
+.section2 {
+    height: 25%;
+}
+
+.s2-heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu;
+    margin-bottom: 40px;
+}
+
+.s2-photo-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 32px;
+    margin-bottom: 80px;
+}
+
+.s2-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    flex-basis: 20%;
+}
+
+.s2-photo {
+    height: 128px;
+    width: 128px;
+    background-color: #b5edc2;
+    border-radius: 25px;
+    border: 5px royalblue;
+}
+
+.s2-caption {
+    display: flex;
+    flex-wrap: wrap;
 }
