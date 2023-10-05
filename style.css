@@ -135,10 +135,20 @@ button {
     width: 128px;
     background-color: #b5edc2;
     border-radius: 25px;
-    border: 5px royalblue;
+}
+
+.s2-photo img {
+    font-size: 12px;
+    text-align: center;
 }
 
 .s2-caption {
     display: flex;
     flex-wrap: wrap;
+}
+
+.s2-card a {
+    color:  black;
+    text-align: center;
+    gap: 4px;
 }
