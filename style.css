@@ -222,3 +222,13 @@ button {
     padding: 5px 20px;
     border-radius: 10px;
 }
+
+/* beginning of footer */
+
+.footer {
+    height: 10%;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 40px 5%;
+}
